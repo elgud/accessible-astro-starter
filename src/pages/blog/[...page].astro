@@ -73,4 +73,13 @@ const { page } = Astro.props
       grid-template-columns: repeat(3, 1fr);
     }
   }
+
+  :global(.card) {
+    background-color: var(--neutral-100);
+  }
+
+  :global(.darkmode .card) {
+    background-color: var(--dark-200);
+  }
+  
 </style>
