@@ -35,7 +35,7 @@ $colors: (
   ),
 
   light: (
-    100: hsl(45,20,96), //main background
+    100: hsl(45,20%,96%), //main background
     200: var(--neutral-200), //background of features and cards
     300: var(--neutral-100), //white for outlines
     //100: hsl(51,18,92),
